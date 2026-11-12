@@ -1,0 +1,31 @@
+{
+  "name": "supernova-backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "selftest": "tsx scripts/selftest.ts"
+  },
+  "dependencies": {
+    "@abaplint/core": "^2.120.92",
+    "ajv": "^8.20.0",
+    "jszip": "^3.10.2",
+    "marked": "^18.1.2",
+    "next": "^15.5.28",
+    "pdfjs-dist": "6.4.299",
+    "pdfmake": "^0.2.20",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/pdfmake": "^0.2.11",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  },
+  "description": "SuperNova backend: the AI engine and its APIs (/api/pipeline, /api/state, /api/fsd, /api/download, /api/client-logo, /api/v1)."
+}
